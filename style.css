@@ -1,0 +1,94 @@
+/* Estilo general para la imagen con borde arriba */
+
+
+/* Estilos para el encabezado */
+.cabecero {
+    position: fixed;             /* Hace que el encabezado esté fijo en la parte superior */
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+/* Estilo general para la imagen con borde arriba */
+.imagen-borde {
+    border-top: 5px solid black; /* Borde superior de 5px */
+    display: block;              /* Asegura que la imagen esté alineada a la izquierda */
+    width: 150px;                 
+    width: 20%;/* Asegura que la imagen ocupe el 100% del ancho disponible */
+    height: 150px;
+    margin-bottom: 20px;        /* Espacio inferior después de la imagen */
+    float: right;
+    
+}
+
+#iconoPagina img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Barra de navegación */
+.navbarIndex {
+    position: fixed;
+    top: 70px; /* Distancia desde el encabezado */
+    left: 0;
+    width: 200px;
+    background-color: #444;
+    padding: 10px;
+}
+
+.navbarIndex ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbarIndex ul li {
+    margin: 10px 0;
+}
+
+.navbarIndex ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbarIndex ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido de los artículos */
+.add-onsDerecha {
+    margin-left: 220px; /* Espacio después de la barra lateral */
+    margin-top: 30px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.add-onsDerecha h2 {
+    color: #333;
+}
+
+.add-onsDerecha img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Enlace de volver arriba */
+#arriba {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#arriba:hover {
+    background-color: #555;
+}
