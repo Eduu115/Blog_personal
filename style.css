@@ -1,4 +1,8 @@
 /* Estilos para el encabezado */
+main{
+    margin-left: 10%;
+}
+
 .cabecero {
     position: fixed;
     left: 0%;             
@@ -23,7 +27,7 @@
 
 .imagen-borde {
                  
-    width: 10rem;
+    width: 100%;
     
     margin: 20px;        
     float: right;
@@ -68,9 +72,9 @@
 
 /* Contenido de los artículos */
 .add-onsDerecha {
-    margin-left: 220px; 
-    margin-top: 30px;
-    padding: 10px;
+    
+    margin-top: 7%;
+    padding: 3%;
     border: 5px solid black;
 }
 
@@ -99,15 +103,22 @@
 #arriba:hover {
     background-color: #555;
 }
-@media (max-width: 768px) { /*como si fuera para moviles, reducimos la letra y ponemos el flex en columna */
+@media screen and (max-width: 768px) { /*como si fuera para moviles, reducimos la letra y ponemos el flex en columna */
     *, body {
-      font-size: 10px;
-      
+      color: aqua;
     }
-  
+
+    
+
     main {
       display: flex;
       flex-direction: column;
       gap: 10px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    li, a, ul{
+        
     }
   }
