@@ -1,25 +1,31 @@
-/* Estilo general para la imagen con borde arriba */
-
-
 /* Estilos para el encabezado */
 .cabecero {
-    position: fixed;             /* Hace que el encabezado esté fijo en la parte superior */
+    position: fixed;
+    left: 0%;             
     top: 0;
     width: 100%;
     background-color: #333;
     color: white;
     padding: 10px 0;
     text-align: center;
+    display: flex;
     
 }
-/* Estilo general para la imagen con borde arriba */
+
+.cabecero-main{
+    width: 90%;
+    padding-left: 12%;
+}
+
+.cabecero-foto{
+    width: 10%;
+}
+
 .imagen-borde {
-    border-top: 5px solid black; /* Borde superior de 5px */
-    display: block;              /* Asegura que la imagen esté alineada a la izquierda */
-    width: 150px;                 
-    width: 20%;/* Asegura que la imagen ocupe el 100% del ancho disponible */
-    height: 150px;
-    margin-bottom: 20px;        /* Espacio inferior después de la imagen */
+                 
+    width: 10rem;
+    
+    margin: 20px;        
     float: right;
     
 }
@@ -33,11 +39,11 @@
 /* Barra de navegación */
 .navbarIndex {
     position: fixed;
-    top: 70px; /* Distancia desde el encabezado */
+    top: 0; 
     left: 0;
-    width: 200px;
+    width: 6%;
     background-color: #444;
-    padding: 10px;
+    padding: 2%;
 }
 
 .navbarIndex ul {
@@ -61,7 +67,7 @@
 
 /* Contenido de los artículos */
 .add-onsDerecha {
-    margin-left: 220px; /* Espacio después de la barra lateral */
+    margin-left: 220px; 
     margin-top: 30px;
     padding: 10px;
     border: 5px solid black;
@@ -92,3 +98,15 @@
 #arriba:hover {
     background-color: #555;
 }
+@media (max-width: 768px) { /*como si fuera para moviles, reducimos la letra y ponemos el flex en columna */
+    *, body {
+      font-size: 10px;
+      
+    }
+  
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
