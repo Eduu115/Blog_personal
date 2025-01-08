@@ -44,6 +44,7 @@
     width: 6%;
     background-color: #444;
     padding: 2%;
+    min-height: 100%;
 }
 
 .navbarIndex ul {
