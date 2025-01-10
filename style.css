@@ -57,6 +57,10 @@ main{
 
 .navbarIndex a:hover {
     text-decoration: underline;
+    color: white;
+}
+a:visited {
+    color: #777;
 }
 
 /* Contenido de los artículos */
@@ -96,6 +100,13 @@ ul{
 #arriba:hover {
     background-color: #555;
 }
+
+a{
+    text-decoration: none;
+    margin-top: 20%;
+    color: #777;
+}
+
 @media screen and (max-width: 768px) { /*como si fuera para moviles, reducimos la letra y ponemos el flex en columna */
     body {
       color: aqua;
