@@ -1,6 +1,6 @@
 /* Estilos para el encabezado */
 main{
-    margin-left: 10%;
+    margin-left: 12%;
 }
 
 .cabecero {
@@ -19,6 +19,10 @@ main{
 .cabecero-main{
     width: 90%;
     padding-left: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .cabecero-foto{
@@ -45,14 +49,23 @@ main{
     position: fixed;
     top: 0; 
     left: 0;
-    width: 6%;
+    width: 10%;
     background-color: #444;
     padding: 1%;
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
     align-items: center;
+}
+.iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15%;
+}
+.links-internos{
+    display: flex;
+    flex-direction: column;
 }
 
 .navbarIndex a:hover {
@@ -107,6 +120,7 @@ a{
     color: #777;
 }
 
+
 @media screen and (max-width: 768px) { /*como si fuera para moviles, reducimos la letra y ponemos el flex en columna */
     body {
       color: aqua;
@@ -129,4 +143,12 @@ a{
         
     }
     
+  }
+
+  @media screen and (max-width: 900px) {
+
+    h4{
+        font-size: 10px;
+    }
+
   }
