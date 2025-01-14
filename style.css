@@ -123,7 +123,7 @@ a{
 
 @media screen and (max-width: 768px) { /*como si fuera para moviles, reducimos la letra y ponemos el flex en columna */
     body {
-      color: aqua;
+      /* color: aqua; */
     }
 
     
@@ -135,15 +135,7 @@ a{
     }
   }
 
-  @media screen and (max-width: 768px) {
-
-    a.navA{
-        font-size: 60%;
-        background-color: aqua;
-        
-    }
-    
-  }
+  
 
   @media screen and (max-width: 900px) {
 
@@ -151,4 +143,16 @@ a{
         font-size: 10px;
     }
 
+  }
+  @media screen and (max-width: 768px) {
+
+    a.navA{
+        font-size: 10px;
+        /* background-color: aqua; */
+        
+    }
+    h4{
+        font-size: 7px;
+    }
+    
   }
