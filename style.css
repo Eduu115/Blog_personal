@@ -1,4 +1,8 @@
 /* Estilos para el encabezado */
+html{
+    background-color: #777;
+}
+
 main{
     margin-left: 12%;
 }
@@ -142,16 +146,20 @@ a{
 }
 
 #articuloUno{
-    background-image: url('./fotos/img1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('./fotos/img1.jpg');
 }
 #articuloDos{
-    background-image: url('./fotos/img1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('./fotos/img1.jpg');
 }
 #articuloTres{
-    background-image: url('./fotos/img1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('./fotos/img1.jpg');
 }
 #articuloForm{
-    background-image: url('./fotos/img1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('./fotos/img1.jpg');
 }
 
 @media screen and (max-width: 768px) { /*como si fuera para moviles, reducimos la letra y ponemos el flex en columna */
