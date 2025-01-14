@@ -78,22 +78,31 @@ a:visited {
 
 /* Contenido de los artículos */
 .add-onsDerecha {
-    
+    float: left;
     margin-top: 7%;
     padding: 3%;
     border: 5px solid black;
+    display: flex;
+    flex-direction: column;
 }
 
 .add-onsDerecha h2 {
     color: #333;
 }
 
+/* fotos de articulos */
 .add-onsDerecha img {
-    width: 100%;
+    width: 10%;
     height: auto;
     margin-bottom: 10px;
+    float: left;
+    
 }
 
+.add-onsDerecha p{
+    padding: 5%;
+    margin-left: 10%;
+}
 /* Enlace de volver arriba */
 #arriba {
     position: fixed;
@@ -120,6 +129,13 @@ a{
     color: #777;
 }
 
+.img-articulo{
+    width: 10px;
+}
+
+.add-onsDerecha{
+    width: 93%;
+}
 
 @media screen and (max-width: 768px) { /*como si fuera para moviles, reducimos la letra y ponemos el flex en columna */
     body {
