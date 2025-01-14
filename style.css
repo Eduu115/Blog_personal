@@ -135,6 +135,23 @@ a{
 
 .add-onsDerecha{
     width: 93%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#articuloUno{
+    background-image: url('./fotos/img1.jpg');
+}
+#articuloDos{
+    background-image: url('./fotos/img1.jpg');
+}
+#articuloTres{
+    background-image: url('./fotos/img1.jpg');
+}
+#articuloForm{
+    background-image: url('./fotos/img1.jpg');
 }
 
 @media screen and (max-width: 768px) { /*como si fuera para moviles, reducimos la letra y ponemos el flex en columna */
