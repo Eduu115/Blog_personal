@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Blog personal</title>
     <link rel="stylesheet" href="style.css"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 </head>
 <body>
     
@@ -88,19 +89,26 @@
             <div class="add-onsContenido">
 
                 <img src="./fotos/img3.jpg" alt="Imagen Art 3" class="img-articulo">
-                <form action="./form/">
+                <form action="" method="post" id="formulario">
 
-                    
+                    <label for="email">
+                        <p>
+                            Introduce tu email para estar al dia de las novedades y cambios <br><br>
 
+                            <input type="email" placeholder="email de persona chula" alt="campo para el amail" id="email-newsletter" name="email" required>
+                            <button type="submit">Enviar</button>
+        
+
+                        </p>
+                    </label>
                 </form>
+
+                <script src="./javascript/script.js"></script>
+
             </div>
 
         </div>
 
-        
-        <div id="mainContent">
-           
-        </div>
     </main>
 </body>
 </html>
