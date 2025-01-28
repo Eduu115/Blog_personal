@@ -1,10 +1,21 @@
 /* Estilos para el encabezado */
 html{
     background-color: #777;
+    height: 100%;
+    width: 100%;
+}
+body{
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    top: 0;
 }
 
 main{
-    margin-left: 12%;
+    padding-left: 12%;
+    padding-top: 4%;
+    height: 100%;
 }
 
 .cabecero {
@@ -12,31 +23,37 @@ main{
     left: 0%;             
     top: 0;
     width: 100%;
+    height: 20%;
     background-color: #333;
     color: white;
     padding: 10px 0;
     text-align: center;
     display: grid;
+    grid-template-columns: 80% 1fr;
+    grid-template-rows: 80%;
     
 }
 
 .cabecero-main{
-    width: 90%;
+    width: 100%;
+    height: 100%;
     padding-left: 12%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .cabecero-foto{
-    width: 10%;
+    width: 1fr;
+    height: 100%;
 }
 
 .imagen-borde {
                  
     width: 100%;
-    
+    height: 100%;
     margin: 20px;        
     float: right;
     
