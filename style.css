@@ -16,7 +16,7 @@ main{
     color: white;
     padding: 10px 0;
     text-align: center;
-    display: flex;
+    display: grid;
     
 }
 
